@@ -1,0 +1,34 @@
+/* public/css/header.css */
+
+/* Estilos básicos para o cabeçalho */
+header {
+    background-color: #86A7FC; /* Cor de fundo do cabeçalho */
+    color: #F8F4EC; /* Cor do texto no cabeçalho */
+    padding: 10px; /* Espaçamento interno do cabeçalho */
+    display: flex; /* Para alinhar o conteúdo do cabeçalho em linha (horizontal) */
+    justify-content: space-between; /* Alinha os itens à esquerda e à direita */
+    align-items: center; /* Centraliza verticalmente os itens do cabeçalho */
+}
+
+
+/* Estilos para o menu de navegação no cabeçalho */
+nav ul {
+    list-style: none; /* Remove marcadores de lista padrão */
+    margin: 0; /* Remove margem padrão da lista */
+    padding: 0; /* Remove preenchimento padrão da lista */
+}
+
+nav ul li {
+    display: inline-block; /* Exibe os itens do menu em linha (horizontal) */
+    margin-right: 20px; /* Espaçamento entre os itens do menu */
+}
+
+nav a {
+    text-decoration: none; /* Remove a decoração de link padrão */
+    color: #fff; /* Cor do texto dos links no menu */
+}
+
+/* Estilos para outros elementos no cabeçalho (pode incluir formulários, botões, etc.) */
+
+    /* Adicione estilos conforme necessário para outros elementos no cabeçalho */
+
